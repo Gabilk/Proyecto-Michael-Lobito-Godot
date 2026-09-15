@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid=9876543210"]
+
+[ext_resource type="Script" path="res://scripts/lobito_companion.gd"]
+
+[node name="Lobito" type="CharacterBody2D"]
+script = ExtResource("uid=9876543210")
+speed = 150
+gravity = 800
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(1.5, 1.5)
