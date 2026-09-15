@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid=1234567890"]
+
+[ext_resource type="Script" path="res://scripts/michael_player.gd"]
+
+[node name="Michael" type="CharacterBody2D"]
+script = ExtResource("uid=1234567890")
+speed = 200
+gravity = 800
+jump_force = -400
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = 1.5
