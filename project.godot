@@ -1,0 +1,18 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are tricky to get right
+; without proper tooling. If you must edit this manually,
+; be aware that the parameters are case-sensitive.
+
+config_version=5
+
+[application]
+
+config/name="Michael y Lobito - Acompañante Virtual 2D"
+config/version="1.0.0"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.1", "2d")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
